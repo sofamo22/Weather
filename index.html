@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="bg-black">
+
+    <nav class="navbar navbar-expand-sm bg-black ">
+        <div class="container  px-3 py-4">
+            <a class="navbar-brand text-white" href="#">
+                <img src="./imgs/logo@2x.png" alt="logo" class="logo">
+                <div class="logo d-inline-block  ">
+                    <h1 class="site ">Weather</h1>
+                    <small class="description d-block ">tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavId">
+                <ul class="navbar-nav  mt-2 mt-lg-0  ">
+                    <li class="nav-item me-4  ">
+                        <a class="nav-link active text-white px-3" href="#" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white px-3" href="#">News</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white px-3" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white px-3" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white px-3" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="hero">
+            <div class="container px-5">
+                <form class="locarion position-relative">
+                    <input class="w-100 bg-black text-white rounded-pill border-0" type="text" id="search"
+                        placeholder="Find your location....">
+                    <button type="submit" class="btn btn-primary rounded-pill" id="btnSubmit">Find</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="WeatherData">
+        <div class="container px-2 ">
+            <div class="row" id="rowBody">
+            </div>
+        </div>
+    </section>
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="form">
+                        <input type="text" placeholder="Enter your email to subscribe..." class="form-control">
+                        <button type="submit" class="btn btn-primary rounded-pill">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
